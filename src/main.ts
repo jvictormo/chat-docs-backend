@@ -32,6 +32,7 @@ async function bootstrap() {
         false
       );
     },
+    logger: ["log", "error", "warn", "debug", "verbose"],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
