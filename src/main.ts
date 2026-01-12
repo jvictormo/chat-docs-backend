@@ -9,7 +9,7 @@ async function bootstrap() {
 
   // Enabling CORS
   app.enableCors({
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', "https://chat-docs-frontend-updates-git-main-jvictormos-projects.vercel.app",],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
